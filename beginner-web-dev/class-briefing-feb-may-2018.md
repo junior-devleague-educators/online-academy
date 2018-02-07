@@ -4,7 +4,7 @@
 
 ### Class Recap 02/06/18
 Format of the class was as follows:
-* Instructors and teachers gave a quick introductions
+* Instructors and teachers gave quick introductions
 * How and why we use Slack
 * Went over Slack features
 * Introduction to CodePen

@@ -49,7 +49,7 @@ Live coded the following:
   - Explained that using shortcuts eliminate the possibility of forgetting a closing tag, and auto indents code for you.
   - Auto-create an HTML skeleton, example: ! _tab_
   - Auto-create opening and closing tags, example: div _tab_
-  - Creating mulitple elements, example: li*3 _tab_ to create 3 list elemments
+  - Creating mulitple elements, example: li*3 _tab_ to create 3 list elements
 * Live code example created during class: https://codepen.io/msoriano/pen/JpEeLb
 * Assigned: fan-page - https://github.com/junior-devleague-educators/fan-page
 

@@ -17,9 +17,35 @@ Resources:
 
 ### Class Recap 02/08/18
 Format of the class was as follows:
-* Explained what Git and GitHub is, why and how we use it.
-* Went over HTML Slides
-* Live coded HTML examples on CodePen
+* Explained what GitHub is
+  - Online open source repository for storing projects
+  - Most widely used online host for source code used by programmers
+  - How to find repositories
+  - File structure of repositories: README.md, folders, and files
+* Explained what Git is
+  - Open source version control software used in the command line
+* Explained difference between remote and local repositories
+  - Remote is anything online, servers and files in the cloud on the internet
+  - Local is anything on your machine
+* Live how to build a HTML Structure, also called "HTML skeleton"
+* Explained what web content is
+  - Everything from words, pictures, videos inside of tags
+* Explained HTML Syntax
+  - Opening tags w/ closing tags
+  - Self closing tags
+* Explained Importance of indentation when writing code
+  - Easier readability
+  - Easier way to differentiate between code and content
+Live coded the following:
+* HTML tags
+  - Created divs, paragraphs, headers, ordered lists, unordered lists, links, and images
+* HTML attributes
+  - Used as labels or to provide additional information
+* CodePen shortcuts
+  - Using ! _tab_ to auto-create an HTML skeleton
+  - Typing element name and tag, e.g: div _tab_
+  - Creating mulitple elements li*3 _tab_ to create 3 list elemments
+* Live code example created during class: https://codepen.io/msoriano/pen/JpEeLb
 * Assigned: fan-page - https://github.com/junior-devleague-educators/fan-page
 
 Resources:

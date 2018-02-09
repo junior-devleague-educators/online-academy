@@ -17,8 +17,9 @@ Resources:
 
 ### Class Recap 02/08/18
 Format of the class was as follows:
+
 * Explained what GitHub is
-  - Online open source repository for storing projects
+  - Online open source repository for storing projects
   - Most widely used online host for source code used by programmers
   - How to find repositories
   - File structure of repositories: README.md, folders, and files

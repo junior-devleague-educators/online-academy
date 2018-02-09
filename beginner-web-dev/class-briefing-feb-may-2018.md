@@ -28,7 +28,6 @@ Format of the class was as follows:
 * Explained difference between remote and local repositories
   - Remote is anything online, servers and files in the cloud on the internet
   - Local is anything on your machine
-* Live how to build a HTML Structure, also called "HTML skeleton"
 * Explained what web content is
   - Everything from words, pictures, videos inside of tags
 * Explained HTML Syntax
@@ -38,14 +37,17 @@ Format of the class was as follows:
   - Easier readability
   - Easier way to differentiate between code and content
 Live coded the following:
+* Creating a HTML Structure, also called "HTML skeleton"
 * HTML tags
   - Created divs, paragraphs, headers, ordered lists, unordered lists, links, and images
 * HTML attributes
   - Used as labels or to provide additional information
 * CodePen shortcuts
-  - Using ! _tab_ to auto-create an HTML skeleton
-  - Typing element name and tag, e.g: div _tab_
-  - Creating mulitple elements li*3 _tab_ to create 3 list elemments
+  - When using shortcuts you must type bang symbol or element name and immediately press tab
+  - Explained that using shortcuts eliminate the possibility of forgetting a closing tag, and auto indents code for you.
+  - Auto-create an HTML skeleton, example: ! _tab_
+  - Auto-create opening and closing tags, example: div _tab_
+  - Creating mulitple elements, example: li*3 _tab_ to create 3 list elemments
 * Live code example created during class: https://codepen.io/msoriano/pen/JpEeLb
 * Assigned: fan-page - https://github.com/junior-devleague-educators/fan-page
 

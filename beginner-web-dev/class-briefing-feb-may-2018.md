@@ -23,6 +23,8 @@ Format of the class was as follows:
   - Most widely used online host for source code used by programmers
   - How to find repositories
   - File structure of repositories: README.md, folders, and files
+  - How to find assignment repositories in junior-devleague-educators organization
+  - For the purpose of this class, we will be using GitHub for assignment instructions only
 * Explained what Git is
   - Open source version control software used in the command line
 * Explained difference between remote and local repositories

@@ -56,3 +56,22 @@ Live coded the following:
 Resources:
 * HTML Slides: http://slides.com/mellanie/html
 * HTML Elements: https://www.w3schools.com/html/html_elements.asp
+
+## Week 2
+
+### Class Recap 02/06/18
+Format of the class was as follows:
+* Reviewed some of the feature of zoom.us 
+* Open discussion about HTML
+* Had Jenn and Miki live code fan-page solution so that they could practice talking about code
+* Live-Code: Intro to CSS
+  - Explained what CSS does
+  - Why we use CSS and explained about cascading 
+  - Went over basic syntax
+    - Selectors, delcartion, property, value
+  - Explained why we use ID's and Classes
+  
+Resources:
+* CSS Slides: http://slides.com/jasonsewell/css-yes#/
+* W3Schools CSS: https://www.w3schools.com/css/
+

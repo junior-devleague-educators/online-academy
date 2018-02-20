@@ -59,7 +59,7 @@ Resources:
 
 ## Week 2
 
-### Class Recap 02/06/18
+### Class Recap 02/13/18
 Format of the class was as follows:
 * Reviewed some of the feature of zoom.us 
 * Open discussion about HTML
@@ -74,4 +74,36 @@ Format of the class was as follows:
 Resources:
 * CSS Slides: http://slides.com/jasonsewell/css-yes#/
 * W3Schools CSS: https://www.w3schools.com/css/
+
+### Class Recap 02/15/18
+Format of the class was as follows:
+* Reviewed how CSS works
+  - Style cascades from top to bottom like a waterfall
+  - Explanation of inheritance; parent vs child
+* CSS Syntax
+  - How to use selectors to style elements by tag name, id, and classes.
+  - How to use properties like width, background-color, font-family, etc and set values to add styling to HTML elements.
+* Live-Code: HTML
+  - Teachers navigated instructor on creating a basic HTML page with h1, links, images, divs, and paragraphs.
+* Live-Code: CSS
+  - Element selector, state the element itself
+  - ID selector, use # to select and id
+  - Class selector, use . to select classes
+  - Multiple styles for a single element
+  - Pseudo classes
+    - Hover effect to links
+    - Change color of links if it was visited
+  - Sizing content with px, pt, and %
+  - Adding background images
+  - How to use colors
+    - CSS color names
+    - Hex code
+    - Showed teachers ColorZilla extension to grab any color on the web
+  - Using fonts
+    - How to import fonts from google fonts
+  
+Resources:
+* CSS Slides: http://slides.com/jasonsewell/css-yes#/
+* W3Schools CSS: https://www.w3schools.com/css/
+* ColorZilla Chrome Extension: https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en
 

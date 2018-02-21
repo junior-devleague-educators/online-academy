@@ -112,7 +112,7 @@ Resources:
 * W3Schools CSS: https://www.w3schools.com/css/
 * ColorZilla Chrome Extension: https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en
 
-### Week 3
+## Week 3
 
 ### Class Recap 02/20/18
 Format of the class was as follows:

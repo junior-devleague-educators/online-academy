@@ -138,3 +138,21 @@ Format of the class was as follows:
 
 Assignment:
 Medium Blog Post - What advice would you give your students about the struggles you had with html & css?
+
+### Class Recap 2/22/18
+Format of the class was as follows:
+* Teachers took the first 10 minutes to do an html & css assessment
+* Went over solutions for the most commonly missed questions
+  - Went over selecting and styling only elements within a div. Example: div p { color: orange; }
+  - Went over the difference between tags and attributes
+  - Reviewed the different selectors: element selectors use tag names, id selectors use #, and class selectors use .
+  - Went over linking external stylesheets to html
+  - Went over border-width property in CSS. The first value is the top border, second value is the right border, third value is the bottom border, and fourth value is the left border.
+* Live coded debugging exercise: https://codepen.io/msoriano/pen/EQRKyE?editors=1100
+
+Assignment:
+Debug html & css: https://codepen.io/msoriano/pen/EQRKyE?editors=1100
+IG Profile: https://github.com/junior-devleague-educators/ig-profile-educators/blob/master/README.md
+
+Resources:
+HTML & CSS for Beginners: https://css-tricks.com/guides/beginner/

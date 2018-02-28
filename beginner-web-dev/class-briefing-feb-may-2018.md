@@ -156,3 +156,30 @@ IG Profile: https://github.com/junior-devleague-educators/ig-profile-educators/b
 
 Resources:
 HTML & CSS for Beginners: https://css-tricks.com/guides/beginner/
+
+## Week 4
+
+### Class Recap 2/27/18
+Format of the class was as follows:
+* Teachers presented their ig-profile project, and answered the following questions:
+  - What did you enjoy about the project?
+  - What was the most challenging part of the project?
+  - At this point, would you be comfortable teaching your students the basics of html & css?
+* Live-coded how to make images larger on hover
+  - Used the `.images:hover` pseudo-selector to target an image only on hover
+  - Used the `width` and `height` property to make images larger
+  - Also showed another way using `transform: scale(1.5)`
+* Live-coded how to move div's into specific areas of a webpage
+  - Gave a quick introduction to flexbox
+    - Flexbox is a layout method
+    - Use `display: flex` on the parent div/element to activate flexbox
+    - Must target parent div/element in order for children elements to move around
+    - Used `display: row` to make elements align in a row
+  - Adjusted margin and padding to position divs containing a number count right above images, followers, and following section of ig-profile
+* Quick reviewed of html & css debugging exercise
+  - Used one of the teacher's project to debug
+  - Explained that the `:nth-child()` pseudo-selector targets the child element specified inside the parenthesis.
+    - example: `p:nth-child(2)` will target the 2nd p element
+
+Resources:
+CSS-Tricks Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/

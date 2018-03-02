@@ -17,7 +17,6 @@ Resources:
 
 ### Class Recap 02/08/18
 Format of the class was as follows:
-
 * Explained what GitHub is
   - Online open source repository for storing projects
   - Most widely used online host for source code used by programmers
@@ -183,3 +182,88 @@ Format of the class was as follows:
 
 Resources:
 CSS-Tricks Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+### Class Recap 3/1/18
+Format of the class was as follows:
+* Live-code and lecture introduction to JavaScript
+  - Variables
+    - Syntax for creating a variable includes `var` followed by the name of the variable followed by the assignment operator (=), followed by the value, which should be a JavaScript datatype. example: `var firstName = "Jay"`
+    - Declare a variable using the keyword `var`
+    - Initialize a variable by using `=` and setting a value.
+    - Explained that keywords in JavaScript are reserved for a specific purpose and can only be used for that purpose. Example: `var` is to indicate that you are creating a variable 
+    - Re-assigning variables does not require the keyword var, because the variable name is already stored in memory. Example: `var firstName = "Jay"` can be reassigned by doing: `firstName = "Mel"`
+    - Variable names can include letters and numbers. It must start with a letter, but can not start with a number. Example: Acceptable: `var num1 = 10` Not Acceptable: `var 1num = 10`
+  - How to use `console.log()`
+    - We use `console.log()` to check code as it gives us instant feedback
+    - You can pass in variable names or any data type between parentheses. Example:
+      ```
+      var num1 = 99;
+      console.log(num1); // returns 99
+      
+      console.log(50); // returns 50
+      ```
+    - Reading errors in console. Example errors we encountered: undefined and illegal (syntax error)
+    - console.log() should always go below the code you are checking. Example:
+      ```
+      Correct way:
+      var firstName = "Mel";
+      console.log(firstName); // returns "Mel"
+      
+      Wrong way:
+      console.log(lastName); // returns undefined
+      var lastName = "Soriano";
+      ```
+  - Writing comments
+    - Use 2 forward slashes for single line comments. Example: `// single line comment`
+    - Use 1 forward slash follwed by an asterisk for the opening of a mult-line comment and an asterisk followed by a forward slash to close multi-line comments. Example:
+    ```
+    /* use this
+    for multi-line
+    comments. */
+    ```
+        
+  - String Data Type
+    - Syntax for strings should be wrapped between double or single quotes
+    - Concatenating more than 1 string with space. Example: `"Taco " + "Cat"` will result in `"Mellanie Soriano"`
+    - Concatenating more than 1 string without space. Example: `"Taco" + "Cat"` will result in "TacoCat"
+  - Number Data Type
+    - Syntax for numbers should just be typed as is, no quotes
+    - Number data types can be positive (1,2,3, etc) or negative integers (-1, -2, -3, etc), and floating points (1.1, 2.345, 3.456, etc).
+  - Boolean Data Type
+    - true or false values
+  - Null Data Type
+    - Has only 1 value, `null`. Example: `var tomorrowsWeather = null`
+    - Used as a placeholder when we don't know what the value is at the moment
+  - Undefined Data Type
+    - When a variable doesn't exist
+    - When a variable hasn’t been set or assigned to a value. Example: `var kittenName;`
+  - Expressions
+    - Produces a value. Example: `2 + 3` will produce 5 as it’s value
+  - Arithmetic Operators
+    - How to use arithmetic operators: Add `+`, Subtract `-`, Multiply `*`, Divide `/`, Increment `++` increases integer by 1, Decrement `--` decreases integer by 1, Modulus `%` will divide 2 numbers and return the remainder.
+    ```
+    var add = 1 + 1; // produces 2 as it's value
+    var subtract = 2 - 1; // produces 1 as it's value
+    var multiply = 5 * 5 // produces 25 as it's value
+    var divide = 10 / 5; // produces 2 as it's value
+    
+    var increment = 1; // produces 1 as it's value
+    increment++ // produces 2 as it's value
+    increment++ // produces 3 as it's value
+    
+    var decrement = 5; // produces 5 as it's value
+    decrement-- // produces 4 as it's value
+    decrement-- // produces 3 as it's value
+    ```
+  - Comparison & Logic Operators
+    - Greater than ( > )
+    - Less than ( < )
+    - Greater than or equal to ( >= )
+    - Less than or equal to ( <= )
+    - Loose equality ( == )
+    - Must be same value, does not have to be same data type. Example: `“5” == 5` will result in true
+    - Strict equality ( === ) Must be same value and same data type. Example: `“5” === 5` will return false. `“5” === “5”` will return true
+    - Loose inequality ( != ) Must not be same value, can be same data type. `5 != 5` will result in false. `5 != 4` will result in true
+    - Strict inequality ( !== ) Must NOT be same value and same data type. `“5” !== 5` will return true. `“5” !== “5”` will return false
+    - Logical AND ( && ) Expressions on both sides of the and ( && ) must evaluate to true in order for code to run. Example: `5 > 2 && `
+    - Logical OR ( || ) Also known as ‘pipe’. Expression on either side of the pipe ( || ) will evaluate to true if either side of the expression is true, otherwise it will produce false. Example: `5 >= 5 || 5 === 6` produces true. `5 < 5 || 5 === 6` produces false

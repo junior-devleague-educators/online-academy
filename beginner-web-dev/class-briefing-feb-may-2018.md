@@ -267,3 +267,34 @@ Format of the class was as follows:
     - Strict inequality ( !== ) Must NOT be same value and same data type. `“5” !== 5` will return true. `“5” !== “5”` will return false
     - Logical AND ( && ) Expressions on both sides of the and ( && ) must evaluate to true in order for code to run. Example: `5 > 2 && `
     - Logical OR ( || ) Also known as ‘pipe’. Expression on either side of the pipe ( || ) will evaluate to true if either side of the expression is true, otherwise it will produce false. Example: `5 >= 5 || 5 === 6` produces true. `5 < 5 || 5 === 6` produces false
+* Assigned: js-variables-datatypes: https://github.com/junior-devleague-educators/js-variables-datatypes
+
+## Week 5
+
+### Class Recap 3/1/18
+* Reviewed and live-coded a couple exercises from the js-variables-datatypes assignment
+  - Explained the difference between `"5" and 5`
+* Went over some JavaScript caveats
+* Difference between “5” and 5, "5" is a String data type and 5 is a number datatype
+  - When you `console.log("5" + 5); // outputs "55"`
+* Difference between console.log(hello); and console.log(“hello”);
+  - `console.log(hello); // outputs hello is not defined`
+  - `console.log("hello"); // outputs "hello"`
+* Review re-assigning variables:
+```
+var x = 5;
+console.log(x); // outputs 5
+x = 10;
+console.log(x); // outputs 10
+```
+* Explained that JavaScript runs top to bottom. Example:
+```
+console.log(name); // outputs not defined
+var name = "Mel";
+console.log(name) // outputs "Mel"
+```
+* Teachers took a variables and datatypes pop quiz
+* Went over solutions that people got wrong
+  - Reviewed strict equals. Datatype and value must be the same in order for this expression to be true. `"3 === 3 // produces false`
+  - Reviewed incrementing and decrementing
+* Assigned: Medium Blog Post - Explain Like I'm 5: Variables

@@ -301,6 +301,7 @@ console.log(name) // outputs "Mel"
 
 ### Class Recap 3/8/2018
 Format of class was as follows:
+
 Introduction to Arrays
 - An array is another data type like strings, numbers, boolean, etc
 - Arrays are like “lists” - you can store all data types in an array.
@@ -319,11 +320,13 @@ Live Code Array Examples
 - To get the length of an array we use .length
 - .length can be useful when we don’t know how many items are within an array.
   Example: `subarrays.length will produce 3`
+  
 Accessing Arrays
 - To access specific items in an array you would use bracket notation.
 - Bracket notation is a property accessor. It gives the ability to access arrays.
 - We use bracket notation by writing the array name followed by the index of the item we want to get.
 - Reiterate that array indexes start from 0
+
 EXERCISES: Create the following sentences:
   - “Hermoine’s favorite subject is Charms”
     - To access “Hermoine” we would do `students[0]`

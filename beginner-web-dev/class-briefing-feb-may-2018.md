@@ -298,3 +298,48 @@ console.log(name) // outputs "Mel"
   - Reviewed strict equals. Datatype and value must be the same in order for this expression to be true. `"3 === 3 // produces false`
   - Reviewed incrementing and decrementing
 * Assigned: Medium Blog Post - Explain Like I'm 5: Variables
+
+### Class Recap 3/8/2018
+Format of class was as follows:
+Introduction to Arrays
+- An array is another data type like strings, numbers, boolean, etc
+- Arrays are like “lists” - you can store all data types in an array.
+- Items in an array should be wrapped in square brackets.
+- Each item in the array should be separated by a comma.
+= Each item in the array is assigned an index, starting from 0.
+- To get the length of an array you can use .length
+Live Code Array Examples
+- Create an array of strings containing Hogwarts student names
+  `var students = [“Hermoine”, “Ron”, “Harry”, “Luna”];`
+  `var schoolSubjects = [“Potions”, “Alchemy”, “Defense Against The Dark Arts”, “Charms”];`
+- Create an array of numbers
+  `var numbers = [10, 2, 9, 200, 56];`
+- Show an example of subarrays within an array
+  `var subarrays = [[“Severus Snape”, “Dolores Umbridge”], [true, false], [“hello”, “9 ¾”, false]]`
+- To get the length of an array we use .length
+- .length can be useful when we don’t know how many items are within an array.
+  Example: `subarrays.length will produce 3`
+Accessing Arrays
+- To access specific items in an array you would use bracket notation.
+- Bracket notation is a property accessor. It gives the ability to access arrays.
+- We use bracket notation by writing the array name followed by the index of the item we want to get.
+- Reiterate that array indexes start from 0
+Create the following sentences:
+  - “Hermoine’s favorite subject is Charms”
+    - To access “Hermoine” we would do `students[0]`
+    - You can do `students[0]` as-is or store it in a variable
+  - “The Alchemy class is located in Room 200, next to the Potion’s class.”
+    - To access “Alchemy” we would do `schoolSubjects[1]`
+    - To access 300 we would do 1numbers[3]1
+    - To access “Potion” we would do `schoolSubjects[0]`
+  - “Harry got lost looking for the Defense of Dark Arts class taught by Dolores Umbridge”
+    - To access “Harry” we would do `students[2]`
+    - To access “Defence of Dark Arts” we would do `schoolSubjects[2]`
+    - To access “Severus Snape” we can do this two ways.
+      - Store `subarrays[0]` in a variable to get the first item in the array. Then use the newly created variable and do `subarrays[1]`
+      - OR `subarrays[0][1]` works too
+  - “Ron and Luna is taking 4 subjects this semester.”
+    - To access “Ron” we would do `students[1]`
+    - To access “Luna” we would do `students[3]`
+    - Get the length of subjects by doing `schoolSubjects.length`
+

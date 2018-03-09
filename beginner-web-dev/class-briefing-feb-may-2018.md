@@ -324,7 +324,7 @@ Accessing Arrays
 - Bracket notation is a property accessor. It gives the ability to access arrays.
 - We use bracket notation by writing the array name followed by the index of the item we want to get.
 - Reiterate that array indexes start from 0
-Create the following sentences:
+EXERCISES: Create the following sentences:
   - “Hermoine’s favorite subject is Charms”
     - To access “Hermoine” we would do `students[0]`
     - You can do `students[0]` as-is or store it in a variable

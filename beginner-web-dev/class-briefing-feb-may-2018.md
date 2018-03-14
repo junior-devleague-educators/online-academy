@@ -345,4 +345,19 @@ EXERCISES: Create the following sentences:
     - To access “Ron” we would do `students[1]`
     - To access “Luna” we would do `students[3]`
     - Get the length of subjects by doing `schoolSubjects.length`
+Assigned: js-arrays - https://github.com/junior-devleague-educators/js-arrays
 
+## Week 6
+
+### Class Recap 3/13/18
+Format of the class was as follows:
+Arrays Homework Review
+- Review an exercise from each section of js-arrays assignment
+  - js-arrays: https://github.com/junior-devleague-educators/js-arrays
+MadLib Story
+- Explain that MadLib story is one way they can bring coding into the classroom.
+- They can create a fill in the blank story with any subject Math, Literature, History, Science, etc.
+- Call on a teacher to create an array with the instructions on madlib-arrays.
+  - madlib-arrays: https://github.com/junior-devleague/madlib-arrays
+- When arrays are created, call on teachers again to fill in the blanks.
+- Console log the results

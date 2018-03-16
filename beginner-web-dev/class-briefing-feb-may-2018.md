@@ -361,3 +361,63 @@ MadLib Story
   - madlib-arrays: https://github.com/junior-devleague/madlib-arrays
 - When arrays are created, call on teachers again to fill in the blanks.
 - Console log the results
+
+### Class Recap 3/15/18
+Format of the class was as follows:
+Introduction to JavaScript Objects
+- Objects are thought of as “collections” that have key-value pairs.
+- Variables can store objects
+Live Code Objects
+- Objects are wrapped in curly braces {...}
+- Explain that var fileCabinet = {}; is an empty object
+- To add key-value pairs we do the following:
+```
+var fileCabinet = {
+   taxes: “2017 Tax Return”
+};
+```
+- The KEY will come first, followed by a colon, followed by the value
+- To add more key-value pairs we do the following:
+```
+var fileCabinet = {
+   taxes: “2017 Tax Return”,
+   insurance: “Geico”,
+   receipts: [“MacBook Pro”, “School Tuition”]
+};
+```
+- Properties should be separated by commas NOT semicolons
+- Show that if you use a semicolon to separate properties you will get a syntax error
+Accessing Objects
+- Dot Notation
+```
+fileCabinet.insurance // produces “Geico”
+fileCabinet.receipts // produces [“MacBook Pro, “School Tuition”]
+```
+Bracket Notation
+```
+fileCabinet["insurance"] // produces “Geico”
+fileCabinet["receipts"] // produces [“MacBook Pro, “School Tuition”]
+fileCabinet[insurance] // will return an error, insurance not defined
+```
+Have teachers create “person” object and add properties
+```
+var person = {
+  name: "mel",
+  favoriteColor: "orange"
+};
+
+// add a property with dot notation
+person.languages = ["english", "javascript"]
+
+// add a property with bracket notation
+person["hairColor"] = "black";
+
+
+// what the object looks like now that you've added new properties:
+var person = {
+  name: "mel",
+  favoriteColor: "orange"
+  languages: ["english", "javascript"],
+  hairColor: "black"
+}
+```

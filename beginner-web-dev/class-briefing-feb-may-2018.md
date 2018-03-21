@@ -421,3 +421,19 @@ var person = {
   hairColor: "black"
 }
 ```
+
+## Week 7
+
+### Class Recap 3/20/18
+Format of the class was as follows:
+JS-Objects Assignment Review
+- Review an exercise from each section of js-objects assignment
+  - js-objects: https://github.com/junior-devleague-educators/js-objects
+  - had each teach live-code a section from the assignment
+Objects and Array Quiz
+- After the quiz we reviewed some tricky questions as a class, mostly syntax erros
+- Teachers found that Question #4 had no correct answer which was a good sign
+Objects and Array Quiz
+- Spent remainder of class working on debugging objects and arrays assignment
+ - debug-arrays-and-objects: https://github.com/junior-devleague-educators/debug-arrays-and-objects
+ - Had teachers work on each number and slack their solution

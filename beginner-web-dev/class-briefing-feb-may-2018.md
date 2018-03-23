@@ -437,3 +437,20 @@ Objects and Array Quiz
 - Spent remainder of class working on debugging objects and arrays assignment
  - debug-arrays-and-objects: https://github.com/junior-devleague-educators/debug-arrays-and-objects
  - Had teachers work on each number and slack their solution
+
+### Class Recap 3/22/18
+Format of the class was as follows:
+Quick review of debug-array-and-objects
+- Explained why console logging nested objects don't fully show in codepen or jsbin
+- Showed that we can see object nesting in chrome dev tools
+Intro to functions live-code
+- Please see lesson plan for live-code steps
+  - https://docs.google.com/document/d/1DH_r_5vwfk0fX5uAdRsnGyzk24TpZDiupOISswlY6mQ/edit#
+    1. Started functions with no parameters and only console.log
+    1. Explained difference between parameters and arguments
+    1. Explained the purpose of `return`
+    1. Had teachers create add, substract, multiply, and divide functions during session 
+- Assigned js-functions
+  - https://github.com/junior-devleague-educators/js-functions
+  
+

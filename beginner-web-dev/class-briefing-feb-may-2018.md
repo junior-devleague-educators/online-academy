@@ -453,4 +453,104 @@ Intro to functions live-code
 - Assigned js-functions
   - https://github.com/junior-devleague-educators/js-functions
   
+## Week 8
 
+### Class Recap 3/27/18
+Format of the class was as follows:
+Function Review
+- Syntax for writing a function
+  - Start with the keyword `function`
+  - Followed by the function name
+  - Immediately followed by parenthesis
+  - Parameters are optional within the parenthesis
+  - Followed by curly braces
+  - Your code should go within the curly braces, this area is called the `function body`
+- How to write a function without parameters:
+  ```
+  function nameOfFunction(){
+    // code in here
+  };
+  ```
+- Write a function with 1 parameter and invoke the function with 1 parameter:
+  ```
+  function nameOfFunction(parameter1){
+    // code in here
+  };
+  
+  nameOfFunction(argument1);
+  ```
+- Write a function with 2 parameters and invoke the function with 2 parameters:
+  ```
+  function nameOfFunction(parameter1, parameter2){
+    // code in here
+  };
+  
+  nameOfFunction(argument1, argument2);
+  ```
+- Storing a function in a variable to use when console logging
+  ```
+  function nameOfFunction(parameter1, parameter2){
+    // code in here
+  };
+  
+  var myFunction = nameOfFunction(argument1, argument2);
+  console.log(myFunction);
+  ```
+Review parameters
+- What are function parameters?
+  - Parameters are used as “placeholders” that will be replaced with values when you invoke your function and pass arguments
+  - Parameters are used when we want to pass different values so we can reuse the function.
+  - Parameters give us the ability to invoke the function many times and pass different arguments.
+
+Review returns in a function
+  - The return is used to specifically return a value
+  ```
+  function pizza(topping1){
+    return topping1; // this will return 'cheese' because I invoked it below with 'cheese' as the argument
+  };
+  
+  pizza('cheese');
+  ```
+  - If we do not return inside of a function we will get an undefined.
+  ```
+  function pizza(topping1){
+    console.log(topping1); // this will print 'cheese' in the console, followed by undefined
+  };
+  
+  pizza('cheese'); 
+  ```
+  - The return should be the last line of code in the function body, anything after the return statement will not be executed because the return keyword basically tells JavaScript “this is the end, give me the final value”.
+  ```
+  function pizza(topping1){
+    return topping1; // will return 'cheese'
+    console.log(topping); // this will not be exectued
+  };
+  ```
+  
+Invoking functions and passing arguments
+  - In order for our function to actually execute, we have to invoke or call it
+  - To invoke or call a function we use the function name followed by parenthesis
+  Example: `myFunction()`;
+  - Arguments should be passed when invoking a function when you have parameters
+  ```
+  function nameOfFunction(parameter1){
+    // code in here
+  };
+  
+  // invoking function below:
+  nameOfFunction(argument1);
+  ```
+  
+In-class function exercise
+Each teacher wrote a function called createStudent with 1 parameter
+  ```
+  function createStudent(firstName) {
+      return firstName
+  };
+  var student1 = 'Mellanie'
+  
+  // storing function to a variable
+  var studentFunction = createStudent(student1);
+  
+  console.log(studentFunction);
+  ```

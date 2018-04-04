@@ -554,3 +554,73 @@ Each teacher wrote a function called createStudent with 1 parameter
   
   console.log(studentFunction);
   ```
+### Class Recap 3/29
+Format of class was as follows:
+- Went over js-function solutions: https://codepen.io/msoriano/pen/NYzMdN
+- Reviewed functions:
+  * How to invoke a function
+  * How to pass arguments
+  * Difference between parameters vs arguments
+  
+## Week 9
+
+### Class Recap 4/3
+Format of class was as follows:
+Mid-program Quiz & Review
+  * Correct way of invoking the following function:
+  ```
+  function doSomething() {
+      return "hello world";
+  }
+
+  // ** ANSWER
+  // HOW TO INVOKE A FUNCTION:
+  doSomething() // returns "hello world"
+  ```
+  * What are the two ways you can access an object?
+    1. Dot Notation
+    2. Bracket Notation
+  * How would you invoke the following function and pass "chocolate" as an argument?
+  ```
+  function makeIceCream(flavor);
+    return flavor;
+  }
+  ```
+  * Assign the following function to a variable called `myFavoriteDance` and pass in the argument `salsa`.
+  ```
+  function letsDance(dance) {
+    return dance;
+  }
+  
+  // *** ANSWER
+  var myFavoriteDance = letsDance('salsa');
+  ```
+  * Add a property called `name` and set it's value to `Fido` to the following object:
+  ```
+  var dog = {};
+  
+  // *** ANSWER
+  // Using dot notation
+  dog.name = 'Fido';
+  
+  // Using bracket notation
+  dog['name'] = 'Fido';
+  ```
+  * How would you invoke the following function and pass “chocolate” as an argument?
+  ```
+  function makeIceCream(flavor);
+    return flavor;
+  }
+  
+  // *** ANSWER
+  makeIceCream('chocolate');
+  ```
+  * What is the value that will be console logged in the following:
+  ```
+  var decrement = 5;
+  decrement--;
+  console.log(decrement); // *** ANSWER: 4
+  decrement = 2;
+  ```
+  * Open discussion & feedback about learning coding and program
+    - Teachers would like to see and learn how html, css, javascript work together

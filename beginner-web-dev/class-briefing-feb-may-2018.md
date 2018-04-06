@@ -624,3 +624,81 @@ Mid-program Quiz & Review
   ```
   * Open discussion & feedback about learning coding and program
     - Teachers would like to see and learn how html, css, javascript work together
+    
+ ### Class Recap 4/5
+Format of class was as follows:
+- HTML Review
+  - Use `! <tab>` to generate a HTML skeleton
+  - Create a div with the id “container”: `<div id="container"></div>`
+  - Add an image `<img src="url">`
+  - Create a paragraph `<p>some text in here</p>`
+  
+- Introduction to DOM
+Slides: http://devleague.slides.com/jasonsewell/dom-dom-dom-dom#/
+
+What is DOM?
+- DOM is an acronym for Document Model Object
+- The DOM is an API, or Application Programming Interface for interacting with the browser
+- The DOM is a dynamic, in-memory representation of an HTML document
+- We can use DOM to manipulate the structure of a document
+
+
+What DOM isn’t?
+- The DOM is NOT JavaScript, we use JavaScript to interact with the DOM
+- The DOM is NOT your HTML document that you write in your editor  (although it starts that way)
+
+How does DOM work?
+- Browser requests HTML document from web server
+- File downloads to the browser via the internet as plain text
+- Browser parses the HTML text to create the DOM
+- An in-memory replica of the HTML downloaded is created in memory
+- We can change the DOM not the source file
+
+
+Accessing HTML Elements
+- Example of accessing an element by tag name
+`var getDivs = document.getElementsByTagName(div);`
+- Example of accessing an element by ID
+`var mainContainer = document.getElementById(‘container’);`
+- Console log to check if you targeted the right element 
+
+How to set or return text
+- The innerHTML property sets or returns the HTML content (inner HTML) of an element
+- The property value should always be a string/text
+- Syntax for using innerHTML to add text to our container div:
+```
+var mainContainer = document.getElementById(‘container’);
+mainContainer.innerHTML = ‘hello world’;
+```
+
+How to change an image
+- The src property sets or returns the value of the src attribute of an image
+- The required src attribute specifies the URL of an image
+```
+var grumps = document.getElementById(“grumpy-cat”);
+grumps.src = “replace-with-image-url”;
+```
+
+Create a new HTML element:
+`var newDiv = document.createElement(‘div’);`
+
+Assign an id to the newly created div:
+`newDiv.id = (‘about-me-container’);`
+
+
+Add text to the newly created div:
+`newDiv.innerHTML = “My name is Grumpy Cat.”`
+
+Appending the newly created div to an existing element:
+`mainContainer.appendChild(newDiv);`
+
+
+Style property
+- Change the background color
+  `mainContainer.style.backgroundColor = ‘orange’;`
+- Change font family
+  `mainContainer.style.fontFamily = ‘comic sans’;`
+- Change font size
+  `mainContainer.style.fontSize = ‘60px’;`
+ 
+ 

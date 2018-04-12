@@ -701,4 +701,23 @@ Style property
 - Change font size
   `mainContainer.style.fontSize = ‘60px’;`
  
+## Week 10
+ 
+### Class Recap 4/10
+ Format of class was as follows:
+- Live-coded DOM-all-stars assignment
+- Teachers guided instructor to the solutions
+- Went over how to access elements by class name
+  - Explained that they would need to access the classes using square brackets and the index number
+ ```
+ Example:
+ 
+ // this gets the first element with the same class name
+ var changeProfile = document.getElementsByClassName('profile')[0];
+ // this changes the text content
+ changeProfile.innerHTML = 'My name is Hello Kitty';
+ ```
+ - Solution to assignment:
+  codepen: https://codepen.io/msoriano/pen/jzeBmN
+ 
  

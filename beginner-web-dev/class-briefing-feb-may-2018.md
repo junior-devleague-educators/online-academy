@@ -721,3 +721,40 @@ Style property
   codepen: https://codepen.io/msoriano/pen/jzeBmN
  
  
+### Class Recap 4/12
+ Format of class was as follows:
+ - Introduced events with addEventListener method
+ - Had teachers code along on their end which was very beneficial to help them understand concepts
+ - Had more practice with `createElement()` method
+ 
+What is an “event”?
+- Events are sent to notify code of things that have taken place.
+- There are many different categories of events
+- Reference: https://developer.mozilla.org/en-US/docs/Web/Events
+- We will be working with mouse events
+
+What is the addEventListener() method?
+- Sets up a function to be called whenever the specified event is delivered to the target.
+- High-level syntax:
+```
+target.addEventListener(‘type’, function(){})
+```
+
+- Live-code example
+  codepen: https://codepen.io/jhoun/pen/rdgymd
+
+- Assignment
+  Intro to DOM events: https://codepen.io/msoriano/pen/yKrMVp
+  
+  
+## Week 10
+
+### Class Recap 4/17
+Format of class was as follows:
+ - Spent entire class reviewing Intro to DOM events assignment
+ - Live-coded problems from #1 - #7
+ - Some students weren't able to get button events working, so we debugged their assignment as a class, which was very effective
+ 
+ - Solution to assignment
+   codepen: https://codepen.io/jhoun/pen/xjxbmX?editors=1011
+

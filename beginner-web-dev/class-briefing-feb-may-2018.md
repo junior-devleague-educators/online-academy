@@ -758,3 +758,84 @@ Format of class was as follows:
  - Solution to assignment
    codepen: https://codepen.io/jhoun/pen/xjxbmX?editors=1011
 
+### Class Recap 4/19
+Format of class was as follows:
+Introduction to JS Conditionals
+- What are conditionals?
+  - A conditional says “If something is true, do this… Otherwise, do that”
+- If statements
+  - An if statement is used to execute a piece of code if something is true.
+  - The piece of code will only run if the condition is true
+  - Structure of an if statement
+  ```
+  if (condition statement) {
+    // code to be executed if statement is true
+  }
+  ```
+- If/else statements
+  - Same rules apply for the if statement
+  - Else is added to statement if the condition in the if statement is false
+  - Structure of an if/else statement
+  ```
+  if (condition statement) {
+    // code to be executed if statement is true
+  } else {
+    // code to be executed if statement is false
+  }
+  ```
+- If, else if, and else statements
+  - We can check for multiple conditions
+  ```
+  if (condition statement) {
+    // code to be executed if statement is true
+  } else if (other condition statement) {
+    // code to be executed if statement is false
+  } else {
+    // code to be executed if none of the statements are true
+  }
+  ```
+Live code examples
+- Write a conditional statement that checks if num1 is greater than num2, if truthy return num1 + “is greater than” + num2.
+    ```
+    if (10 > 5) {
+        console.log(“I am greater than!”);
+    }
+    ```
+- Explain that if we only have an if statement and we don’t control what happens if something is false, the code will not be executed.
+- Add an else to the already made if statement
+  ```
+  if (10 > 5) {
+    console.log(“I am greater than!”);
+  } else {
+    console.log(“I am not greater than!”);
+  }
+  ```
+- Create a function called greeting with one parameter called name. Inside the function, write a conditional statement that returns “Hi” + name if truthy, otherwise return “You are not” + name. Create two variables and assign one of the variables to your name and the other variable to another name.
+```
+function greeting(name){
+  if (name === “mellanie”) {
+    return “Hi “ + name + “ !”;
+  } else {
+    return “You are not “ + name + “ !”;
+  }
+}
+```
+- Create a variable and assign it to your favorite food. Next, create a function called favoriteFood with one parameter called food. Inside the function write a conditional statement that checks if food equals pizza and an else if statement if food equals sushi.
+```
+function favoriteFood(food){
+  if (food === “pizza”) {
+    return “Pizza is my favorite!”;
+  } else if (food === “sushi”) {
+    return “Sushi is my favorite!”;
+  }
+  else {
+    return “Pizza is NOT my favorite. I prefer ” + food;
+    }
+}
+```
+Assignment
+- Js-conditonals: https://github.com/junior-devleague-educators/js-conditionals
+
+Resources:
+- W3 Schools Conditionals - https://www.w3schools.com/js/js_if_else.asp
+- W3 Schools Comparison and Logical Operators - https://www.w3schools.com/js/js_comparisons.asp

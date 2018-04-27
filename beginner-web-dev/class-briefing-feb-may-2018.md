@@ -839,3 +839,113 @@ Assignment
 Resources:
 - W3 Schools Conditionals - https://www.w3schools.com/js/js_if_else.asp
 - W3 Schools Comparison and Logical Operators - https://www.w3schools.com/js/js_comparisons.asp
+
+
+## Week 11
+
+### Class Recap 4/24
+Format of class was as follows:
+* Conditionals Review
+  * Each teacher was assigned an exercise from js-conditionals to live code and teach us the solution like we were their students.
+  
+### Class Recap 4/26
+Format of class was as follows:
+* What is a for loop used for?
+  *  Loops can execute blocks of code a number of times
+  * Loops are handy when you want to run the same code over and over again, each time with a different value
+  * For loops are used to iterate through arrays and strings
+  * A for loop is comprised of 3 pieces separated by semicolons
+    * Initialization - used to initialize the variable before the code block is executed and tracks how far through the loop you are: `for ( var i = 0 )`
+    * Condition - used to evaluate the condition for running the loop (how many times to run the loop): `for ( var i = 0; i < array.length )`
+    * Expression - is executed each time after the code block has been executed 
+      ```
+      for ( var i = 0; i < array.length; i++ ) {
+      // block of code goes in here
+      }
+      ```
+* Live code for loops example
+```
+var nameArray = [‘mel’, ‘jay’, ‘alana’, ‘traci’];
+for (var i = 0; i < nameArray.length; i++) {
+	console.log(‘name: ’ +  nameArray[i] + ' is at index: ' + i);
+}
+
+outputs:
+name: mel is at index: 0
+name: jay is at index: 1
+name: alana is at index: 2
+name: traci is at index: 3
+```
+* The loop starts at index 0 of the nameArray array.
+* The loop will only iterate through the array one less than the array length
+* After each iteration, the count of i will go to the next value
+* When i is 0 nameArray[i] is 'mel', when i is 1 nameArray[i] is 'jay', and so on..
+
+```
+var name = “Mellanie”
+for (var i = 0; i < name.length; i++) {
+	console.log(‘My name contains the letter: ‘ + name[i]);
+}
+
+outputs:
+My name contains the letter: M
+My name contains the letter: e
+My name contains the letter: l
+My name contains the letter: l
+My name contains the letter: a
+My name contains the letter: n
+My name contains the letter: i
+My name contains the letter: e
+```
+
+* Using a for loop in a function
+  * Key things to note:
+    * You should not return within a loop, returning in a loop will only output the last iteration.
+    * You need a variable to set the result in order to see the looped result.
+
+* Greeting Example:
+```
+var greetingList = ['aloha', 'hola', 'ciao'];
+
+function saySomething(greeting){
+	var result = '';
+	for (var i = 0; i < greeting.length; i++) {
+		result += greeting[i] + " mel! ";
+	}
+	 return result;
+}
+var greetMel = saySomething(greetingList);
+console.log(greetMel); // "aloha mel! hola mel! ciao mel! "
+```
+
+Odd Numbers Example:
+```
+var numberList = [9,8,7,6,5];
+
+function findOddNums(numArr){
+	var result = '';
+	for (var i = 0; i < numArr.length; i++) {
+		if (numArr[i] % 2 !== 0) {
+			result += numArr[i] + ‘ ‘;
+	}
+	 return result;
+}
+var displayOddNums = findOddNums(numberList);
+console.log(displayOddNums); // "9 7 5 "
+```
+
+HOW TO ADD ODD NUMBERS:
+```
+var numberList = [9,8,7,6,5];
+
+function findOddNums(numArr){
+	var result = 0; // if you want to do math operations set the value to an integer
+	for (var i = 0; i < numArr.length; i++) {
+		if (numArr[i] % 2 !== 0) {
+			result += numArr[i];
+	}
+	 return result;
+}
+var displayOddNums = findOddNums(numberList);
+console.log(displayOddNums); // "9 7 5 "
+```

@@ -949,3 +949,21 @@ function findOddNums(numArr){
 var displayOddNums = findOddNums(numberList);
 console.log(displayOddNums); // "9 7 5 "
 ```
+
+### Class Recap 5/1
+Format of class was as follows:
+- Had each teachers live-code and teach a problem from js-for-loops assignment.
+
+### Class Recap 5/3
+Format of class was as follows:
+- Assigned whack-a-mole https://github.com/junior-devleague/whack-a-mole
+- Introduced 
+  - setInterval method https://www.w3schools.com/jsref/met_win_setinterval.asp
+  - Math.random() https://www.w3schools.com/jsref/jsref_random.asp
+  - Math.floor() https://www.w3schools.com/jsref/jsref_floor.asp
+  - Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Provided teachers with CSS code snippet to pract CSS Flexbox
+
+  
+
+

@@ -950,6 +950,8 @@ var displayOddNums = findOddNums(numberList);
 console.log(displayOddNums); // "9 7 5 "
 ```
 
+## Week 12
+
 ### Class Recap 5/1
 Format of class was as follows:
 - Had each teachers live-code and teach a problem from js-for-loops assignment.
@@ -964,6 +966,38 @@ Format of class was as follows:
   - Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Provided teachers with CSS code snippet to pract CSS Flexbox
 
+## Week 13
+
+### Class Recap 5/8
+Format of class was as follows:
+- Teachers presented a mini lesson on their given topic
+- Topics covered: Functions, Loops, Conditionals
+- Live-coded how to add an event listener to multiple elements with the same class using a for loop
+Example:
+```
+for(let i = 0; i < boxes.length; i++) {
+	boxes[i].addEventListener('click', function() {
+		alert('Hello!');
+	});
+}
+```
+- Live-coded how to add text to a random div
+```
+function addRandomText() {
+  var newDiv = document.createElement('div');
+  newDiv.setAttribute('class', 'newDiv');
+  newDiv.innerHTML = 'hello';
   
-
-
+  // this creates a random number based on the number of elements in the specified array
+  var randomNumber = Math.floor((Math.random() * boxes.length) + 0);
+  
+  if(boxes[randomNumber].innerHTML === '') {
+    boxes[randomNumber].appendChild(newDiv);
+  }
+}
+});
+```
+- Reviewed how to create a random number
+```
+var randomNum = Math.floor((Math.random() * boxes.length) + 0);
+```
